@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "JSBI BigInt utils",
   "main": "index.js",
-  "types": "index.ts",
+  "types": "index.d.ts",
   "repository": "https://github.com/leapdao/jsbi-utils",
   "author": "LeapDAO",
   "license": "AGPL-3.0-or-later",
   "scripts": {
-    "build": "tsc index.ts"
+    "build": "tsc -d index.ts"
   },
   "dependencies": {
     "jsbi": "^2.0.5"
