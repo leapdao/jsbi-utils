@@ -29,3 +29,5 @@ export const bi = (value: BigIntType | Number | string): BigIntType => {
   return BigInt(value || '');
 }
 
+export const isBigInt = (value: any): boolean => 
+  value.constructor.__isBigInt && value.constructor.__isBigInt(value);
