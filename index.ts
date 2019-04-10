@@ -4,7 +4,7 @@ export const {
   BigInt, toNumber,
   equal, greaterThan, lessThan, greaterThanOrEqual, lessThanOrEqual,
   add, divide, subtract, multiply, exponentiate,
-} = require('jsbi');
+} = require('jsbi/dist/jsbi-umd');
 
 export type BigIntType = JSBI;
 
